@@ -17,9 +17,19 @@ How does replacing the ninth graders’ math and reading scores affect Thomas Hi
 
 How does replacing the ninth-grade scores affect the following:
 1. Math and reading scores by grade - There was Nan in Thomas HS, the following averages were between 83-84
+[Scores by Grade DataFrame](https://github.com/mbugyis/School_District_Analysis/blob/main/Resources/scores_by_grade.png)
 2. Scores by school spending - scores with lower spending had the highest averages and passing percentages
+[School Spending DataFrame](https://github.com/mbugyis/School_District_Analysis/blob/main/Resources/school_spending.png)
 3. Scores by school size - schools loew than 2500 had significantly higher averages and passing percentages. Almost 30% more likely to pass math and almost 40% passing overall
+[School Size DataFrame](https://github.com/mbugyis/School_District_Analysis/blob/main/Resources/school_size.png)
 4. Scores by school type - eliminating the ninth graders, especically Thomas, which was a Charter school saw an increase in overall data metrics. The most significant jump was % passing math.
+
+[School Type DataFrame](https://github.com/mbugyis/School_District_Analysis/blob/main/Resources/school_type.png)
 
 
 ## Summary
+After replacing the ninth grade scores. There was a significant increase in data. One can assume that the ninth grade scores for Thomas High School were not the best. 
+First, the averages for reading and math scores increased by approximately 10 points.
+Second, the % percentages for both math and reading, and obviously for the overall passing percentage increased. As most of the ninth grade scores were not passing initially.
+Third, Thomas was in the second bucket of school size (just over 1500 ppl). The Thomas HS data increased the overall averages of this data bin. It is the highest performing size, with the highest passing percentages across the other sizes
+Fourth, the same is said for the school type. Thomas was a Charter school and the averages for them increased as well. With the ninth grade data, it would decrease the averages but not significantly enough to where Charter and District schools were the same
